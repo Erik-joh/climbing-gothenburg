@@ -1,0 +1,30 @@
+.card {
+  width: 44%;
+  height: 100%;
+  margin: 10% 3%;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px black;
+  margin-bottom: 30px;
+  background-color: rgb(33, 43, 32);
+}
+.card h2 {
+  margin-left: 20px;
+  color: white;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card-text-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+.card-text-container p {
+  color: white;
+  margin-left: 20px;
+  margin-right: 10px;
+  display: flex;
+}

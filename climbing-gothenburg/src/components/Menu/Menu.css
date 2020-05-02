@@ -1,0 +1,16 @@
+.Menu {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.Menu a {
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+.Menu a:hover {
+  text-decoration: underline;
+}

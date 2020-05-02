@@ -1,0 +1,13 @@
+.routes-page {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.routes-card-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
