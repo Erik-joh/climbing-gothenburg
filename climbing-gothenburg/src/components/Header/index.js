@@ -8,6 +8,7 @@ const Header = (props) => {
       <h1>{props.title}</h1>
       <p>{props.description}</p>
       <img src={bg} alt="climbing" />
+      <div className="overlay"></div>
     </div>
   );
 };

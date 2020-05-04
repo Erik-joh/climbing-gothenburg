@@ -19,8 +19,17 @@
 }
 .header img {
   position: fixed;
-  z-index: -1;
+  z-index: -2;
   top: 0px;
   left: 0px;
   width: 100%;
+}
+.header .overlay {
+  position: fixed;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
 }

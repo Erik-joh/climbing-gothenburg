@@ -1,0 +1,7 @@
+.search-field {
+  display: flex;
+  flex-direction: column;
+}
+.search-field p {
+  color: white;
+}
